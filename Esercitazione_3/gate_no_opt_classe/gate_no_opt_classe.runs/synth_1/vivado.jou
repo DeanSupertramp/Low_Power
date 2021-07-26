@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Jul 13 12:48:33 2021
+# Process ID: 2324
+# Current directory: D:/UNI/Low_Power/Esercitazioni/Esercitazione_3/gate_no_opt_classe/gate_no_opt_classe.runs/synth_1
+# Command line: vivado.exe -log TOP_1_RCA.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source TOP_1_RCA.tcl
+# Log file: D:/UNI/Low_Power/Esercitazioni/Esercitazione_3/gate_no_opt_classe/gate_no_opt_classe.runs/synth_1/TOP_1_RCA.vds
+# Journal file: D:/UNI/Low_Power/Esercitazioni/Esercitazione_3/gate_no_opt_classe/gate_no_opt_classe.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source TOP_1_RCA.tcl -notrace

@@ -1,0 +1,8 @@
+Circuit: * C:\Users\andry\OneDrive\Desktop\Low_Power\Esercitazioni\Esercitazione_1\Spice\Esercitazione_2.asc
+
+Error on line 17 : m9 n005 out1 0 0 eecmosn l=0.1u w=5*0.12u
+	 Unknown parameter "*0.12u"
+Error on line 18 : m10 n003 out1 n005 n003 eecmosp l=0.1u w=5*0.21u
+	 Unknown parameter "*0.21u"
+Fatal Error: Voltage source V_SIG_IN1 and voltage source V_SIG_IN2 are paralleled making an over-defined circuit matrix.
+You will need to correct the circuit or add some series resistance.

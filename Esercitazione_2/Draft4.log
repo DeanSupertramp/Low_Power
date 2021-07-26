@@ -1,0 +1,84 @@
+Circuit: * D:\UNI\Low_Power\Esercitazioni\Esercitazione_2\Draft4.asc
+
+WARNING: Node NC_01 is floating.
+
+WARNING: Less than two connections to node NC_01.  This node is used by M3.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Direct Newton iteration for .op point succeeded.
+Semiconductor Device Operating Points:
+                        --- BSIM3 MOSFETS ---
+Name:        m6          m5          m4          m3          m2
+Model:     eecmosp     eecmosp     eecmosn     eecmosn     eecmosn
+Id:        9.15e-10   -4.74e-11    4.10e-13   -3.47e-10    9.15e-10
+Vgs:      -4.00e-01   -1.39e-04   -4.00e-01   -4.00e-01    0.00e+00
+Vds:       1.39e-04   -4.00e-01    1.39e-04   -4.00e-01    4.00e-01
+Vbs:       1.39e-04    0.00e+00   -4.00e-01   -4.00e-01    0.00e+00
+Vth:      -2.59e-01   -2.28e-01    2.38e-01    2.01e-01    1.95e-01
+Vdsat:    -1.60e-01   -4.76e-02    4.82e-02    4.70e-02    4.70e-02
+Gm:        7.16e-09    1.51e-09    1.94e-17    1.10e-08    2.90e-08
+Gds:       6.57e-06    1.40e-10    4.19e-15    1.38e-09    3.63e-09
+Gmb       -1.22e-10   -4.97e-11    4.53e-19   -4.57e-10   -1.21e-09
+Cbd:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cbs:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgsov:     5.47e-17    5.47e-17    4.37e-17    4.37e-17    9.61e-17
+Cgdov:     5.47e-17    5.47e-17    4.37e-17    4.37e-17    9.61e-17
+Cgbov:     5.75e-17    5.75e-17    4.60e-17    4.60e-17    4.60e-17
+dQgdVgb:   2.21e-16    1.76e-16    1.42e-16    1.42e-16    2.58e-16
+dQgdVdb:  -7.42e-17   -5.47e-17   -4.37e-17   -4.37e-17   -9.60e-17
+dQgdVsb:  -8.12e-17   -5.47e-17   -4.37e-17   -4.37e-17   -9.62e-17
+dQddVgb:  -8.14e-17   -5.47e-17   -4.37e-17   -4.37e-17   -9.61e-17
+dQddVdb:   8.53e-17    5.47e-17    4.37e-17    4.37e-17    9.60e-17
+dQddVsb:  -4.27e-18    1.06e-20    2.99e-27    2.32e-20    6.11e-20
+dQbdVgb:  -5.81e-17   -6.64e-17   -5.50e-17   -5.50e-17   -6.58e-17
+dQbdVdb:  -2.54e-17   -1.55e-22   -1.41e-26   -3.04e-22   -8.09e-22
+dQbdVsb:   1.87e-17    2.38e-21    3.09e-22    3.60e-21    9.43e-21
+
+Name:        m1
+Model:     eecmosn
+Id:        0.00e+00
+Vgs:       4.00e-01
+Vds:       0.00e+00
+Vbs:       0.00e+00
+Vth:       2.34e-01
+Vdsat:     1.63e-01
+Gm:        0.00e+00
+Gds:       4.36e-05
+Gmb        0.00e+00
+Cbd:       0.00e+00
+Cbs:       0.00e+00
+Cgsov:     9.61e-17
+Cgdov:     9.61e-17
+Cgbov:     4.60e-17
+dQgdVgb:   3.60e-16
+dQgdVdb:  -1.34e-16
+dQgdVsb:  -1.62e-16
+dQddVgb:  -1.56e-16
+dQddVdb:   1.61e-16
+dQddVsb:  -5.35e-18
+dQbdVgb:  -4.72e-17
+dQbdVdb:  -5.68e-17
+dQbdVsb:   4.15e-17
+
+
+
+Date: Sat Jul 10 22:02:30 2021
+Total elapsed time: 11.683 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 8
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 10
+fillins = 0
+solver = Normal
+Matrix Compiler1: 400 bytes object code size
+Matrix Compiler2: 744 bytes object code size

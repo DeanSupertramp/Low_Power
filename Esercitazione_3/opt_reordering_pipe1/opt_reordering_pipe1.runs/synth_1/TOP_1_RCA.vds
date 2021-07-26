@@ -1,0 +1,344 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu Jun 24 17:48:17 2021
+# Process ID: 12608
+# Current directory: C:/Users/Matteo/Desktop/Esercitazione3/opt_reordering_pipe1/opt_reordering_pipe1.runs/synth_1
+# Command line: vivado.exe -log TOP_1_RCA.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source TOP_1_RCA.tcl
+# Log file: C:/Users/Matteo/Desktop/Esercitazione3/opt_reordering_pipe1/opt_reordering_pipe1.runs/synth_1/TOP_1_RCA.vds
+# Journal file: C:/Users/Matteo/Desktop/Esercitazione3/opt_reordering_pipe1/opt_reordering_pipe1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source TOP_1_RCA.tcl -notrace
+Command: synth_design -top TOP_1_RCA -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 8456 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 353.641 ; gain = 100.570
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'TOP_1_RCA' [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/TOP_1_RCA.vhd:41]
+INFO: [Synth 8-3491] module 'MUX33' declared at 'C:/Users/Matteo/Desktop/Esercitazione3/opt_reordering_pipe1/opt_reordering_pipe1.srcs/sources_1/new/MUX33.vhd:34' bound to instance 'Adder32EF' of component 'MUX33' [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/TOP_1_RCA.vhd:139]
+INFO: [Synth 8-638] synthesizing module 'MUX33' [C:/Users/Matteo/Desktop/Esercitazione3/opt_reordering_pipe1/opt_reordering_pipe1.srcs/sources_1/new/MUX33.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'MUX33' (1#1) [C:/Users/Matteo/Desktop/Esercitazione3/opt_reordering_pipe1/opt_reordering_pipe1.srcs/sources_1/new/MUX33.vhd:40]
+INFO: [Synth 8-3491] module 'RCA32' declared at 'C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/RCA32.vhd:34' bound to instance 'RCA32_AC' of component 'RCA32' [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/TOP_1_RCA.vhd:141]
+INFO: [Synth 8-638] synthesizing module 'RCA32' [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/RCA32.vhd:40]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/FA.vhd:52' bound to instance 'FA0' of component 'FA' [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/RCA32.vhd:51]
+INFO: [Synth 8-638] synthesizing module 'FA' [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/FA.vhd:56]
+INFO: [Synth 8-3491] module 'Half_adder' declared at 'C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/FA.vhd:25' bound to instance 'HA1' of component 'Half_adder' [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/FA.vhd:67]
+INFO: [Synth 8-638] synthesizing module 'Half_adder' [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/FA.vhd:29]
+INFO: [Synth 8-256] done synthesizing module 'Half_adder' (2#1) [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/FA.vhd:29]
+INFO: [Synth 8-3491] module 'Half_adder' declared at 'C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/FA.vhd:25' bound to instance 'HA2' of component 'Half_adder' [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/FA.vhd:69]
+INFO: [Synth 8-3491] module 'Or_gate' declared at 'C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/FA.vhd:39' bound to instance 'OR1' of component 'Or_gate' [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/FA.vhd:71]
+INFO: [Synth 8-638] synthesizing module 'Or_gate' [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/FA.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'Or_gate' (3#1) [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/FA.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'FA' (4#1) [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/FA.vhd:56]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/FA.vhd:52' bound to instance 'FA31' of component 'FA' [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/RCA32.vhd:52]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/FA.vhd:52' bound to instance 'FAX' of component 'FA' [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/RCA32.vhd:55]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/FA.vhd:52' bound to instance 'FAX' of component 'FA' [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/RCA32.vhd:55]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/FA.vhd:52' bound to instance 'FAX' of component 'FA' [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/RCA32.vhd:55]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/FA.vhd:52' bound to instance 'FAX' of component 'FA' [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/RCA32.vhd:55]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/FA.vhd:52' bound to instance 'FAX' of component 'FA' [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/RCA32.vhd:55]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/FA.vhd:52' bound to instance 'FAX' of component 'FA' [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/RCA32.vhd:55]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/FA.vhd:52' bound to instance 'FAX' of component 'FA' [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/RCA32.vhd:55]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/FA.vhd:52' bound to instance 'FAX' of component 'FA' [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/RCA32.vhd:55]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/FA.vhd:52' bound to instance 'FAX' of component 'FA' [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/RCA32.vhd:55]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/FA.vhd:52' bound to instance 'FAX' of component 'FA' [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/RCA32.vhd:55]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/FA.vhd:52' bound to instance 'FAX' of component 'FA' [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/RCA32.vhd:55]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/FA.vhd:52' bound to instance 'FAX' of component 'FA' [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/RCA32.vhd:55]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/FA.vhd:52' bound to instance 'FAX' of component 'FA' [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/RCA32.vhd:55]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/FA.vhd:52' bound to instance 'FAX' of component 'FA' [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/RCA32.vhd:55]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/FA.vhd:52' bound to instance 'FAX' of component 'FA' [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/RCA32.vhd:55]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/FA.vhd:52' bound to instance 'FAX' of component 'FA' [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/RCA32.vhd:55]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/FA.vhd:52' bound to instance 'FAX' of component 'FA' [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/RCA32.vhd:55]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/FA.vhd:52' bound to instance 'FAX' of component 'FA' [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/RCA32.vhd:55]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/FA.vhd:52' bound to instance 'FAX' of component 'FA' [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/RCA32.vhd:55]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/FA.vhd:52' bound to instance 'FAX' of component 'FA' [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/RCA32.vhd:55]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/FA.vhd:52' bound to instance 'FAX' of component 'FA' [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/RCA32.vhd:55]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/FA.vhd:52' bound to instance 'FAX' of component 'FA' [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/RCA32.vhd:55]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/FA.vhd:52' bound to instance 'FAX' of component 'FA' [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/RCA32.vhd:55]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/FA.vhd:52' bound to instance 'FAX' of component 'FA' [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/RCA32.vhd:55]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/FA.vhd:52' bound to instance 'FAX' of component 'FA' [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/RCA32.vhd:55]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/FA.vhd:52' bound to instance 'FAX' of component 'FA' [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/RCA32.vhd:55]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/FA.vhd:52' bound to instance 'FAX' of component 'FA' [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/RCA32.vhd:55]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/FA.vhd:52' bound to instance 'FAX' of component 'FA' [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/RCA32.vhd:55]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/FA.vhd:52' bound to instance 'FAX' of component 'FA' [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/RCA32.vhd:55]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/FA.vhd:52' bound to instance 'FAX' of component 'FA' [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/RCA32.vhd:55]
+INFO: [Synth 8-256] done synthesizing module 'RCA32' (5#1) [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/RCA32.vhd:40]
+INFO: [Synth 8-3491] module 'RCA32' declared at 'C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/RCA32.vhd:34' bound to instance 'RCA32_BD' of component 'RCA32' [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/TOP_1_RCA.vhd:142]
+INFO: [Synth 8-3491] module 'RCA8' declared at 'C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/RCA8.vhd:34' bound to instance 'AdderSel' of component 'RCA8' [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/TOP_1_RCA.vhd:145]
+INFO: [Synth 8-638] synthesizing module 'RCA8' [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/RCA8.vhd:39]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/FA.vhd:52' bound to instance 'FA0' of component 'FA' [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/RCA8.vhd:50]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/FA.vhd:52' bound to instance 'FA1' of component 'FA' [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/RCA8.vhd:51]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/FA.vhd:52' bound to instance 'FA2' of component 'FA' [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/RCA8.vhd:52]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/FA.vhd:52' bound to instance 'FA3' of component 'FA' [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/RCA8.vhd:53]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/FA.vhd:52' bound to instance 'FA4' of component 'FA' [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/RCA8.vhd:54]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/FA.vhd:52' bound to instance 'FA5' of component 'FA' [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/RCA8.vhd:55]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/FA.vhd:52' bound to instance 'FA6' of component 'FA' [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/RCA8.vhd:56]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/FA.vhd:52' bound to instance 'FA7' of component 'FA' [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/RCA8.vhd:57]
+INFO: [Synth 8-256] done synthesizing module 'RCA8' (6#1) [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/RCA8.vhd:39]
+INFO: [Synth 8-3491] module 'parity_check' declared at 'C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/parity_check.vhd:34' bound to instance 'Pattern' of component 'parity_check' [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/TOP_1_RCA.vhd:146]
+INFO: [Synth 8-638] synthesizing module 'parity_check' [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/parity_check.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'parity_check' (7#1) [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/parity_check.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'TOP_1_RCA' (8#1) [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/TOP_1_RCA.vhd:41]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 406.461 ; gain = 153.391
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 406.461 ; gain = 153.391
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/clock_constr.xdc]
+Finished Parsing XDC File [C:/Users/Matteo/Desktop/Esercitazione3/FILE_PROF/clock_constr.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 770.660 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:29 ; elapsed = 00:00:32 . Memory (MB): peak = 770.660 ; gain = 517.590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:29 ; elapsed = 00:00:32 . Memory (MB): peak = 770.660 ; gain = 517.590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:32 . Memory (MB): peak = 770.660 ; gain = 517.590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:29 ; elapsed = 00:00:32 . Memory (MB): peak = 770.660 ; gain = 517.590
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 144   
+	   9 Input      1 Bit         XORs := 1     
++---Registers : 
+	               33 Bit    Registers := 1     
+	               32 Bit    Registers := 8     
+	                8 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     33 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module TOP_1_RCA 
+Detailed RTL Component Info : 
++---Registers : 
+	               33 Bit    Registers := 1     
+	               32 Bit    Registers := 8     
+	                8 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
+Module MUX33 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     33 Bit        Muxes := 1     
+Module Half_adder 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+Module parity_check 
+Detailed RTL Component Info : 
++---XORs : 
+	   9 Input      1 Bit         XORs := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 770.660 ; gain = 517.590
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:44 ; elapsed = 00:00:47 . Memory (MB): peak = 770.660 ; gain = 517.590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:46 ; elapsed = 00:00:49 . Memory (MB): peak = 813.184 ; gain = 560.113
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:47 ; elapsed = 00:00:50 . Memory (MB): peak = 822.109 ; gain = 569.039
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:48 ; elapsed = 00:00:51 . Memory (MB): peak = 822.109 ; gain = 569.039
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:48 ; elapsed = 00:00:51 . Memory (MB): peak = 822.109 ; gain = 569.039
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:48 ; elapsed = 00:00:51 . Memory (MB): peak = 822.109 ; gain = 569.039
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:48 ; elapsed = 00:00:51 . Memory (MB): peak = 822.109 ; gain = 569.039
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:48 ; elapsed = 00:00:51 . Memory (MB): peak = 822.109 ; gain = 569.039
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:48 ; elapsed = 00:00:51 . Memory (MB): peak = 822.109 ; gain = 569.039
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     1|
+|2     |LUT2 |    42|
+|3     |LUT3 |     7|
+|4     |LUT4 |     4|
+|5     |LUT5 |    52|
+|6     |LUT6 |    56|
+|7     |FDRE |   306|
+|8     |IBUF |   146|
+|9     |OBUF |    33|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   647|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:48 ; elapsed = 00:00:51 . Memory (MB): peak = 822.109 ; gain = 569.039
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:29 ; elapsed = 00:00:41 . Memory (MB): peak = 822.109 ; gain = 204.840
+Synthesis Optimization Complete : Time (s): cpu = 00:00:48 ; elapsed = 00:00:51 . Memory (MB): peak = 822.109 ; gain = 569.039
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 146 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+75 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:50 ; elapsed = 00:00:55 . Memory (MB): peak = 822.109 ; gain = 581.301
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Matteo/Desktop/Esercitazione3/opt_reordering_pipe1/opt_reordering_pipe1.runs/synth_1/TOP_1_RCA.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file TOP_1_RCA_utilization_synth.rpt -pb TOP_1_RCA_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.050 . Memory (MB): peak = 822.109 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Jun 24 17:49:20 2021...

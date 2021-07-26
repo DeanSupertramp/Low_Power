@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"TOP_1_RCA_TB_func_impl.vhd" \
+"../../../../../../FILE_PROF/TOP_1_RCA_TB.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Low_Power/Esercitazioni/Esercitazione_3/gate_no_opt_classe/gate_no_opt_classe.sim/sim_1/impl/timing/xsim/TOP_1_RCA_TB_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TOP_1_RCA
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/UNI/Low_Power/Materiale_Corso/Week 9/TOP_1_RCA_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TOP_1_RCA_TB

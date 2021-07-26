@@ -1,0 +1,12 @@
+
+{ 
+    crc :  8308642339557368136  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 0afa9486ddaa4b728a849210f04505f4 --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot TOP_1_RCA_TB_time_impl -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.TOP_1_RCA_TB xil_defaultlib.glbl" , 
+    buildDate : "Dec 15 2017" , 
+    buildTime : "21:07:18" , 
+    linkCmd : "D:\\LUCIFER\\Vivado\\2017.4\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/TOP_1_RCA_TB_time_impl/xsimk.exe\"   \"xsim.dir/TOP_1_RCA_TB_time_impl/obj/xsim_0.win64.obj\" \"xsim.dir/TOP_1_RCA_TB_time_impl/obj/xsim_1.win64.obj\" \"xsim.dir/TOP_1_RCA_TB_time_impl/obj/xsim_2.win64.obj\" \"xsim.dir/TOP_1_RCA_TB_time_impl/obj/xsim_3.win64.obj\" \"D:\\LUCIFER\\Vivado\\2017.4\\lib\\win64.o\\\\librdi_simulator_kernel.dll\" \"D:\\LUCIFER\\Vivado\\2017.4\\lib\\win64.o\\\\librdi_simbridge_kernel.dll\"" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

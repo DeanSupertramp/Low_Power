@@ -1,0 +1,3 @@
+.measure tran energia_bis INTEG 0.5*1*(abs(i(Vsupply))-i(Vsupply)) from=4n to=14n
+
+.measure tran ritardo_fall trig v(IN) val=0.5 rise=1 targ v(OUT) val=0.5 fall=1
